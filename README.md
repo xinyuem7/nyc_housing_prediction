@@ -6,7 +6,7 @@ Talk about why I wanted to do this project
 
 A summary of what I did, and what model I ended up using, what variables are included in the model, what is the accuracy of the model
 
-## Dataset Used
+## [Dataset Used](https://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page)
 Link the dataset from Kaggle here, state the origin and the description: what are the variables
 
 ## Detailed Steps
