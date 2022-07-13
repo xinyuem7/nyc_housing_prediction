@@ -28,8 +28,8 @@ Link the dataset from Kaggle here, state the origin and the description: what ar
    
 *** Things I did: ***
 - *LAND SQUARE FEET* and *GROSS SQUARE FEET*
- - drop unreasonable values and outliers
- - log tranformation to normalize them
+   - drop unreasonable values and outliers
+   - log tranformation to normalize them
 
 **4. Feature Engineering**
 - create new variables from existing variables
