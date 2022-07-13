@@ -26,7 +26,7 @@ Link the dataset from Kaggle here, state the origin and the description: what ar
    - check the correlation among numerical variables in order to avoid multicollinearity for regression model
    - understand categorical variables better by ploting bar plots
    
-*** Things I did:
+*** Things I did: ***
 - *LAND SQUARE FEET* and *GROSS SQUARE FEET*
  - drop unreasonable values and outliers
  - log tranformation to normalize them
