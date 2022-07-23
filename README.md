@@ -44,6 +44,9 @@ Link the dataset from Kaggle here, state the origin and the description: what ar
 **5. Feature Selection**
 *Need to look into this more*
 
+   **Things I realized while doing features selection:**
+      - I think I over did this, I should've kept some variables even though there is strong correlation because later on the models that I will use sometime can helo with overfitting
+      
 **6. Data Prepricessing for Model**
 - include only relevant variables
 - impute data with mean/median if necessary
