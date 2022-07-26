@@ -56,6 +56,7 @@ Link the dataset from Kaggle here, state the origin and the description: what ar
 **6. Model Buidling**
 *Need to choose models to work with*
 *Gradient Descent*
+*Random Forest: scaled data or non-scaled data*
 
 **7. Learning Curve**
 - use learning curve to check for underfitting and overfitting
