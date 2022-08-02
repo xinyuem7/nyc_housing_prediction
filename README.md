@@ -2,34 +2,38 @@
 A Supervised Machine Learning Project: 
 
 ## Overview
-Talk about why I wanted to do this project
+As I was making plans to move to NYC, I was wondering the price of NYC's residential properties and how it would change with respect to locations, gross square feet, year built, and many other factors.
 
-A summary of what I did, and what model I ended up using, what variables are included in the model, what is the accuracy of the model
-
-## [Dataset Used](https://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page)
-Link the dataset from Kaggle here, state the origin and the description: what are the variables
+On [the Official Website of the City of New York](https://www1.nyc.gov/), I found data sets that contained [NYC properties sale data from July 2021 to June 2022](https://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page).
 
 ## Detailed Steps
-**1. Understand the dataset**
-- the number of data entries and the number of variables
-- check the data type and null counts
-- what are the numerical variables and what are the categorical variables
-- for numerical variables, use `.describe()` to understand the central tendencies
+**1. Understand the dataset and Data Cleaning**
+- checked the number of data entries and the number of variables
+- checked the variable types and null counts for each variables
+- dropped rows with null values
+- dropped unseasonable values, such as SALE PRICE = 0
+- categorized numerical variables and categorical variables
 
-**2. Data Cleaning**
-- delete rows with invalid values
-
-**3. Data Exploration**
-- sepaprate the numerical and categorical variables
+**2. Data Exploration**
 - for numerical varriables
    - understand the distribution of numerical variables using histogram
-   - check the correlation among numerical variables in order to avoid multicollinearity for regression model
+   - used `.describe()` to learn about the quantiles and outliers
    - understand categorical variables better by ploting bar plots
    
    **Things I did:**
       - *LAND SQUARE FEET* and *GROSS SQUARE FEET*
          - drop unreasonable values and outliers
          - log tranformation to normalize them
+
+**3. Feature Selection**
+- for numerical varriables
+   - check the correlation among numerical variables in order to avoid multicollinearity for regression model: turned out 
+
+*Need to look into this more*
+   - check the correlation among numerical variables in order to avoid multicollinearity for regression model: turned out TOTAL UNITS, RESIDENTIAL UNITS, GROSS SQUARE FEET are highly corelated, thus TOTAL UNITS and GROSS SQUARE FEET were not be included in the model
+
+   **Things I realized while doing features selection:**
+      - I think I over did this, I should've kept some variables even though there is strong correlation because later on the models that I will use sometime can helo with overfitting
 
 **4. Feature Engineering**
 - create new variables from existing variables
@@ -43,6 +47,7 @@ Link the dataset from Kaggle here, state the origin and the description: what ar
 
 **5. Feature Selection**
 *Need to look into this more*
+   - check the correlation among numerical variables in order to avoid multicollinearity for regression model: turned out 
 
    **Things I realized while doing features selection:**
       - I think I over did this, I should've kept some variables even though there is strong correlation because later on the models that I will use sometime can helo with overfitting
