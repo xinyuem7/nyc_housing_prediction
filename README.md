@@ -49,4 +49,4 @@ In this project, the following steps were taken: DEA, data cleaning, feature sel
 - Linear Regression (R^2): 0.37
 
 **7. Model Performance (after variable tunning)**
-- Linear Regression (R^2): 0.63
+- Linear Regression (R^2): 0.46
