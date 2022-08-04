@@ -1,5 +1,5 @@
 # NYC Housing Price Prediction
-A Supervised Machine Learning Project: 
+A Supervised Machine Learning Project
 
 ## Overview
 As I was making plans to move to NYC, I was wondering the price of NYC's residential properties and how it would change with respect to locations, gross square feet, year built, and many other factors.
