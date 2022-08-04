@@ -6,6 +6,8 @@ As I was making plans to move to NYC, I was wondering the price of NYC's residen
 
 On [the Official Website of the City of New York](https://www1.nyc.gov/), I found data sets that contained [NYC properties sale data from July 2021 to June 2022](https://www1.nyc.gov/site/finance/taxes/property-rolling-sales-data.page).
 
+In this project, the following steps were taken: DEA, data cleaning, feature selection, feature engineering, preprocessing, and then regression model training.
+
 ## Detailed Steps
 **1. Understand the dataset and Data Cleaning**
 - checked the number of data entries and the number of variables
